@@ -1,5 +1,6 @@
 const nijyou = (num) => {
-  console.log(num * num);
+  return num * num;
 }
 
-nijyou(10);
+const result = nijyou(10);
+console.log(result);
